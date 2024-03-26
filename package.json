@@ -10,7 +10,8 @@
     "vue": "^2.6.7",
     "vue-router": "^3.0.2",
     "vue-meta": "^2.2.1",
-    "@lottiefiles/vue-lottie-player": "1.0.4"
+    "@lottiefiles/vue-lottie-player": "1.0.4",
+    "dangerous-html": "0.1.13"
   },
   "devDependencies": {
     "@vue/babel-preset-app": "^5.0.8",
