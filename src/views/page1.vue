@@ -72,7 +72,7 @@
       <span class="page1-text04 Text">
         <span>
           확정되는 공약부터 차근차근 채워 나가겠습니다.
-          <span v-html="rawkwvx"></span>
+          <span v-html="raw8nna"></span>
         </span>
         <br />
         <span>나중에 다시 찾아주세요!</span>
@@ -91,7 +91,7 @@
         <br />
         <span>총괄선거대책위원회</span>
         <br />
-        <span><span v-html="raw982p"></span></span>
+        <span><span v-html="rawh51u"></span></span>
       </span>
     </footer>
   </div>
@@ -108,8 +108,8 @@ export default {
   },
   data() {
     return {
-      rawkwvx: ' ',
-      raw982p: ' ',
+      raw8nna: ' ',
+      rawh51u: ' ',
     }
   },
   metaInfo: {

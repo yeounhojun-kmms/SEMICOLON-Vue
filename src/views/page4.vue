@@ -73,14 +73,15 @@
     <div class="page4-hero">
       <div class="page4-container1">
         <h1 class="page4-text03">
-          <span class="page4-text04 SubTitle">더 나은 중앙의 미래를 향해,</span>
+          <span class="page4-text04 SubTitle">보다 더 나은</span>
           <br class="SubTitle" />
-          <span class="page4-text06 SubTitle">도약할 준비 완료 </span>
-          <span class="page4-text07">✓</span>
+          <span class="page4-text06 SubTitle">중앙의 미래를 향해,</span>
+          <br class="SubTitle" />
+          <span class="SubTitle">도약할 준비 완료 </span>
+          <span>✓</span>
         </h1>
-        <h1 class="page4-text08 Title">
-          <span>홍석준</span>
-          <br />
+        <h1 class="page4-text10 Title">
+          <span>홍석준 </span>
           <span>박지우</span>
         </h1>
       </div>
@@ -99,7 +100,7 @@
         class="page4-link1"
       >
         <div class="page4-banner">
-          <h2 class="page4-text12">
+          <h2 class="page4-text13">
             <span>Semi;Colon</span>
             <br />
             <span>공약 모음집</span>
@@ -109,17 +110,17 @@
       </a>
       <router-link to="/brand" class="page4-navlink3">
         <div class="page4-container3">
-          <h2 class="page4-text17">
+          <h2 class="page4-text18">
             <span>Semi;Colon</span>
             <br />
             <span>브랜드 네이밍</span>
             <br />
             <span>
               소개 페이지
-              <span v-html="rawngip"></span>
+              <span v-html="rawqsls"></span>
             </span>
-            <br class="page4-text23" />
-            <span><span v-html="rawl05a"></span></span>
+            <br class="page4-text24" />
+            <span><span v-html="rawajlw"></span></span>
           </h2>
         </div>
       </router-link>
@@ -142,7 +143,7 @@
         <br />
         <span>총괄선거대책위원회</span>
         <br />
-        <span><span v-html="raw2ton"></span></span>
+        <span><span v-html="raw52jq"></span></span>
       </a>
     </footer>
   </div>
@@ -159,9 +160,9 @@ export default {
   },
   data() {
     return {
-      rawngip: ' ',
-      rawl05a: ' ',
-      raw2ton: ' ',
+      rawqsls: ' ',
+      rawajlw: ' ',
+      raw52jq: ' ',
     }
   },
   metaInfo: {
@@ -313,15 +314,11 @@ export default {
 }
 .page4-text04 {
   max-width: 450px;
-  text-decoration: none;
 }
 .page4-text06 {
-  text-decoration: none;
+  max-width: 450px;
 }
-.page4-text07 {
-  text-decoration: none;
-}
-.page4-text08 {
+.page4-text10 {
   max-width: 450px;
 }
 .page4-image2 {
@@ -352,7 +349,7 @@ export default {
   background-image: url('https://i.ibb.co/cFmG2Zy/IMG-0201.jpg');
   background-position: center;
 }
-.page4-text12 {
+.page4-text13 {
   color: #ffffff;
   font-size: 1.5rem;
   text-align: center;
@@ -381,7 +378,7 @@ export default {
   background-image: url('https://i.ibb.co/vkS9W7N/IMG-4109.jpg');
   background-position: center;
 }
-.page4-text17 {
+.page4-text18 {
   color: #ffffff;
   font-size: 1.5rem;
   text-align: center;
@@ -458,7 +455,7 @@ export default {
     background-image: url('https://i.ibb.co/vkS9W7N/IMG-4109.jpg');
     background-position: center;
   }
-  .page4-text23 {
+  .page4-text24 {
     font-size: 2rem;
   }
 }
@@ -499,8 +496,9 @@ export default {
   }
   .page4-text03 {
     text-align: center;
+    text-decoration: none;
   }
-  .page4-text08 {
+  .page4-text10 {
     text-align: center;
   }
   .page4-image2 {
@@ -523,7 +521,7 @@ export default {
   .page4-container3 {
     height: 218px;
   }
-  .page4-text23 {
+  .page4-text24 {
     font-weight: 600;
   }
   .page4-footer {

@@ -72,8 +72,8 @@
         <span class="page5-text04">후보자 소개</span>
         <br class="page5-text05" />
         <span>
-          <span><span v-html="rawazbn"></span></span>
-          <span><span v-html="raw0bxt"></span></span>
+          <span><span v-html="rawotn9"></span></span>
+          <span><span v-html="rawavrc"></span></span>
         </span>
       </h2>
     </div>
@@ -142,14 +142,14 @@
             <br />
             <span>
               (前) 제20대 대통령선거 후보
-              <span v-html="rawam4d"></span>
+              <span v-html="rawhzph"></span>
             </span>
             <br />
             <span>청소년특별보좌관</span>
             <br />
             <span>
               (前) 대한민국청소년의회 제13대
-              <span v-html="raw0u3w"></span>
+              <span v-html="rawbi8p"></span>
             </span>
             <br />
             <span>정치법제위원회 의원</span>
@@ -174,7 +174,7 @@
         <br />
         <span>총괄선거대책위원회</span>
         <br />
-        <span><span v-html="raw731d"></span></span>
+        <span><span v-html="raw3wtm"></span></span>
       </span>
     </footer>
     <div data-thq="thq-mobile-menu" class="page5-mobile-menu1">
@@ -237,11 +237,11 @@ export default {
   },
   data() {
     return {
-      rawazbn: ' ',
-      raw0bxt: ' ',
-      rawam4d: ' ',
-      raw0u3w: ' ',
-      raw731d: ' ',
+      rawotn9: ' ',
+      rawavrc: ' ',
+      rawhzph: ' ',
+      rawbi8p: ' ',
+      raw3wtm: ' ',
     }
   },
   metaInfo: {
