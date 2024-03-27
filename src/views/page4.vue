@@ -72,12 +72,13 @@
     </header>
     <div class="page4-hero">
       <div class="page4-container1">
-        <h1 class="page4-text03 SubTitle">
-          <span class="page4-text04">여러분을 위해,</span>
-          <br />
-          <span class="page4-text06">준비된 사람들</span>
+        <h1 class="page4-text03">
+          <span class="page4-text04 SubTitle">더 나은 중앙의 미래를 향해,</span>
+          <br class="SubTitle" />
+          <span class="page4-text06 SubTitle">도약할 준비 완료 </span>
+          <span class="page4-text07">✓</span>
         </h1>
-        <h1 class="page4-text07 Title">
+        <h1 class="page4-text08 Title">
           <span>홍석준</span>
           <br />
           <span>박지우</span>
@@ -98,7 +99,7 @@
         class="page4-link1"
       >
         <div class="page4-banner">
-          <h2 class="page4-text11">
+          <h2 class="page4-text12">
             <span>Semi;Colon</span>
             <br />
             <span>공약 모음집</span>
@@ -108,17 +109,17 @@
       </a>
       <router-link to="/brand" class="page4-navlink3">
         <div class="page4-container3">
-          <h2 class="page4-text16">
+          <h2 class="page4-text17">
             <span>Semi;Colon</span>
             <br />
             <span>브랜드 네이밍</span>
             <br />
             <span>
               소개 페이지
-              <span v-html="raw8xhg"></span>
+              <span v-html="rawngip"></span>
             </span>
-            <br class="page4-text22" />
-            <span><span v-html="rawpx7v"></span></span>
+            <br class="page4-text23" />
+            <span><span v-html="rawl05a"></span></span>
           </h2>
         </div>
       </router-link>
@@ -141,7 +142,7 @@
         <br />
         <span>총괄선거대책위원회</span>
         <br />
-        <span><span v-html="raw7u83"></span></span>
+        <span><span v-html="raw2ton"></span></span>
       </a>
     </footer>
   </div>
@@ -158,9 +159,9 @@ export default {
   },
   data() {
     return {
-      raw8xhg: ' ',
-      rawpx7v: ' ',
-      raw7u83: ' ',
+      rawngip: ' ',
+      rawl05a: ' ',
+      raw2ton: ' ',
     }
   },
   metaInfo: {
@@ -318,6 +319,9 @@ export default {
   text-decoration: none;
 }
 .page4-text07 {
+  text-decoration: none;
+}
+.page4-text08 {
   max-width: 450px;
 }
 .page4-image2 {
@@ -348,7 +352,7 @@ export default {
   background-image: url('https://i.ibb.co/cFmG2Zy/IMG-0201.jpg');
   background-position: center;
 }
-.page4-text11 {
+.page4-text12 {
   color: #ffffff;
   font-size: 1.5rem;
   text-align: center;
@@ -377,7 +381,7 @@ export default {
   background-image: url('https://i.ibb.co/vkS9W7N/IMG-4109.jpg');
   background-position: center;
 }
-.page4-text16 {
+.page4-text17 {
   color: #ffffff;
   font-size: 1.5rem;
   text-align: center;
@@ -454,7 +458,7 @@ export default {
     background-image: url('https://i.ibb.co/vkS9W7N/IMG-4109.jpg');
     background-position: center;
   }
-  .page4-text22 {
+  .page4-text23 {
     font-size: 2rem;
   }
 }
@@ -493,7 +497,10 @@ export default {
     margin-bottom: var(--dl-space-space-unit);
     padding-right: 0px;
   }
-  .page4-text07 {
+  .page4-text03 {
+    text-align: center;
+  }
+  .page4-text08 {
     text-align: center;
   }
   .page4-image2 {
@@ -516,7 +523,7 @@ export default {
   .page4-container3 {
     height: 218px;
   }
-  .page4-text22 {
+  .page4-text23 {
     font-weight: 600;
   }
   .page4-footer {

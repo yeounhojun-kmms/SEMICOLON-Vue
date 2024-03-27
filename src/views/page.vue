@@ -71,7 +71,7 @@
       <h2 class="page-text03 SectionTitle">
         <span class="page-text04">Semi;Colon이란?</span>
         <br class="page-text05" />
-        <span><span v-html="rawni9x"></span></span>
+        <span><span v-html="rawbrzf"></span></span>
       </h2>
     </div>
     <div class="page-container1">
@@ -95,7 +95,7 @@
         <span>유기적으로 </span>
         <span>
           이어주는
-          <span v-html="rawsdi7"></span>
+          <span v-html="rawngao"></span>
         </span>
         <br />
         <span>역할이라고 생각했습니다.</span>
@@ -107,12 +107,12 @@
         <br />
         <span>
           학생회장으로서의
-          <span v-html="raw3drg"></span>
+          <span v-html="rawcadv"></span>
         </span>
         <br />
         <span>
           책무를 다하겠다는
-          <span v-html="rawumn4"></span>
+          <span v-html="rawfapx"></span>
         </span>
         <br />
         <span>우리의 다짐입니다.</span>
@@ -132,7 +132,7 @@
         <br />
         <span>총괄선거대책위원회</span>
         <br />
-        <span><span v-html="rawk8r0"></span></span>
+        <span><span v-html="raw5hf5"></span></span>
       </span>
     </footer>
   </div>
@@ -149,11 +149,11 @@ export default {
   },
   data() {
     return {
-      rawni9x: ' ',
-      rawsdi7: ' ',
-      raw3drg: ' ',
-      rawumn4: ' ',
-      rawk8r0: ' ',
+      rawbrzf: ' ',
+      rawngao: ' ',
+      rawcadv: ' ',
+      rawfapx: ' ',
+      raw5hf5: ' ',
     }
   },
   metaInfo: {

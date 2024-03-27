@@ -74,8 +74,8 @@
         <span class="Banner">여러분의 의견을 듣고 있습니다!</span>
         <br class="page2-text07" />
         <span>
-          <span><span v-html="rawa65a"></span></span>
-          <span><span v-html="rawifb9"></span></span>
+          <span><span v-html="raw131i"></span></span>
+          <span><span v-html="raw7lgh"></span></span>
         </span>
       </h2>
       <button class="page2-button BannerBtn">지금 참여하기</button>
@@ -85,7 +85,7 @@
       <span class="page2-text12 Text">
         <span>
           확정되는 컴포넌트부터 차근차근 채워 나가겠습니다.
-          <span v-html="rawbell"></span>
+          <span v-html="rawo3dh"></span>
         </span>
         <br />
         <span>나중에 다시 찾아주세요!</span>
@@ -97,8 +97,8 @@
           <span class="Banner">여러분의 의견을 듣고 있습니다!</span>
           <br class="page2-text20" />
           <span>
-            <span><span v-html="rawja7v"></span></span>
-            <span><span v-html="rawa6ov"></span></span>
+            <span><span v-html="rawc7yf"></span></span>
+            <span><span v-html="rawx0kx"></span></span>
           </span>
         </h2>
         <button class="page2-button1 BannerBtn">지금 참여하기</button>
@@ -117,7 +117,7 @@
         <br />
         <span>총괄선거대책위원회</span>
         <br />
-        <span><span v-html="rawmput"></span></span>
+        <span><span v-html="rawk8xx"></span></span>
       </span>
     </footer>
   </div>
@@ -134,12 +134,12 @@ export default {
   },
   data() {
     return {
-      rawa65a: ' ',
-      rawifb9: ' ',
-      rawbell: ' ',
-      rawja7v: ' ',
-      rawa6ov: ' ',
-      rawmput: ' ',
+      raw131i: ' ',
+      raw7lgh: ' ',
+      rawo3dh: ' ',
+      rawc7yf: ' ',
+      rawx0kx: ' ',
+      rawk8xx: ' ',
     }
   },
   metaInfo: {

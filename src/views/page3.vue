@@ -74,7 +74,7 @@
       <h1 class="page3-text04">
         <span class="Heading page3-text05">
           Semi;Colon에서는
-          <span v-html="rawbcr9"></span>
+          <span v-html="rawikbj"></span>
         </span>
         <br class="Heading page3-text06" />
         <span class="Heading page3-text07">공약을 </span>
@@ -174,7 +174,7 @@
         <br />
         <span>총괄선거대책위원회</span>
         <br />
-        <span><span v-html="rawn185"></span></span>
+        <span><span v-html="rawupj7"></span></span>
       </span>
     </footer>
   </div>
@@ -194,8 +194,8 @@ export default {
   },
   data() {
     return {
-      rawbcr9: ' ',
-      rawn185: ' ',
+      rawikbj: ' ',
+      rawupj7: ' ',
     }
   },
   metaInfo: {
